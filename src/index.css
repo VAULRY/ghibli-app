@@ -29,9 +29,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background: #535bf2;
+  text-align: center;
 }
 
 h1 {
+  text-align: center;
   font-size: 3.2em;
   line-height: 1.1;
 }
@@ -88,6 +90,34 @@ button:focus-visible {
   font-size: 14px;
   color: #555;
 }
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  margin: 20px auto;
+  display: block;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.sort-buttons {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.sort-buttons button {
+  margin: 0 15px; /* Ajout d'espace horizontal entre les boutons */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.sort-buttons button:hover {
+  background-color: #ddd;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {

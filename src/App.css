@@ -4,6 +4,25 @@
   padding: 2rem;
   text-align: center;
 }
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
 .film-list {
   display: flex;
   flex-wrap: wrap;
@@ -27,10 +46,39 @@
   border-radius: 10px;
 }
 
-.film-title {
-  font-size: 18px;
-  color: #333;
-  margin: 10px 0;
+.favorite-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  margin: 20px auto;
+  display: block;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.sort-buttons {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.sort-buttons button {
+  margin: 0 15px; /* Ajout d'espace horizontal entre les boutons */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.sort-buttons button:hover {
+  background-color: #ddd;
 }
 
 .film-director,
